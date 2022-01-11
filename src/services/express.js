@@ -20,6 +20,12 @@ app.use(morgan("combined"));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
+app.use(express.static(path.resolve(__dirname, "../views")));
+
+app.use((req, res, next) => {
+    res.sendFile(path.resolve(__dirname, "../views/index.html"));
+});
+
 app.use("/api", apiRouter);
 
 exports.start = () => {

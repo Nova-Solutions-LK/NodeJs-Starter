@@ -3,7 +3,21 @@
   "version": "1.0.0",
   "description": "Start your NodeJS project quickly",
   "main": "src/index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.12.7",
+    "morgan": "^1.10.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "http-status": "^1.5.0",
+    "express-validation": "^3.0.8"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
   "scripts": {
+    "start": "node src/index.js",
+    "dev": "./node_modules/.bin/nodemon src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
