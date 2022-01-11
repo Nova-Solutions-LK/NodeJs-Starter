@@ -1,0 +1,24 @@
+{
+  "name": "nodejs-starter",
+  "version": "1.0.0",
+  "description": "Start your NodeJS project quickly",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nova-Solutions-LK/NodeJs-Starter.git"
+  },
+  "keywords": [
+    "nodejs",
+    "backend-api",
+    "javascript"
+  ],
+  "author": "Nova Solutions (Pvt) Ltd",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nova-Solutions-LK/NodeJs-Starter/issues"
+  },
+  "homepage": "https://github.com/Nova-Solutions-LK/NodeJs-Starter#readme"
+}
