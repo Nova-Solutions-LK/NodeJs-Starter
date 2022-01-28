@@ -20,5 +20,9 @@ module.exports = {
     appId: process.env.FIREBASE_APPID,
     serviceAccount: process.env.FIREBASE_SERVICE_ACCOUNT,
 
-    mongodbUrl: process.env.MONGO_DB_URL
+    mongodbUrl: process.env.MONGO_DB_URL,
+
+    mailFromAddress: process.env.MAIL_FROM_ADDRESS,
+    mailUsername: process.env.MAIL_USERNAME,
+    mailPassword: process.env.MAIL_PASSWORD,
 }
